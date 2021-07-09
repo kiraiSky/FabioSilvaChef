@@ -1,0 +1,133 @@
+/* Estilos gerais */
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 100px;
+  background-color: #514f92;
+}
+
+.btn-laranja {
+  background-color: #fe8800;
+}
+
+.subtitulo {
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+/* Inicio */
+
+.inicio {
+  background: url("../img/bg.png") center no-repeat;
+  background-size: cover;
+  height: 1000px;
+  padding-top: 270px;
+  text-align: center;
+}
+
+.sobre {
+  background-color: rgba(182, 184, 199, 0.52);
+  color: #1d1d1d;
+  text-align: center;
+  height: 350px;
+  padding: 25px 0px 0px 0px;
+  margin: 0 190px;
+  margin-bottom: 40px;
+}
+
+.titulo {
+  font-family: "Alex Brush";
+  color: #fff;
+  font-size: 64px;
+  padding: 5px 0;
+  background-color: rgba(34, 31, 123, 0.71);
+}
+
+.sobre p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 29px;
+  margin-top: 50px;
+  padding: 0px 44px;
+  font-weight: bold;
+  color: rgb(255, 253, 253);
+}
+
+/* Contato - Inicio */
+
+.contato {
+  background: url(../img/bg-sobremesa.jpg) center no-repeat;
+  background-size: cover;
+  height: 1000px;
+  text-align: center;
+}
+
+.contato {
+  padding-top: 150px;
+}
+
+.contato .subtitulo {
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+}
+
+.contato p:nth-of-type(1) {
+  margin-bottom: 50px;
+}
+
+.contato p:nth-of-type(2) {
+  padding: 0 250px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+/* Blog */
+
+.blog-inicio {
+  background: url("../img/bg-blog.jpg") no-repeat center;
+  background-size: cover;
+  height: 1000px;
+  padding-top: 200px;
+}
+
+.blog-inicio h2 {
+  font-family: Alex Brush;
+  font-size: 64px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.post {
+  height: 330px;
+  background-color: white;
+  text-align: center;
+}
+
+.post p:nth-of-type(1) {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.blog-inicio .subtitulo-post::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #000;
+  margin: 10px auto 2px auto;
+}
